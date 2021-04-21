@@ -1,6 +1,5 @@
 // Declaramos variables
-
-const pares = ["Rock", "Papper", "Scissors"];
+const pares = ["Rock", "Paper", "Scissors"];
 let contHumano = 0;
 let contPc = 0;
 
@@ -47,16 +46,6 @@ function playRound(computerSelection, playerSelection){
 }
 
 
-// Función para declarar al vencedor
-
-function game(){
-  let i=0;
-  for(i=0; contHumano  <= 5 || contPC <= 5; i++){
-   let playerSelection = prompt("Ingresa tu eleccion: ", ).toLowerCase();
-   playRound(computerPlay(), playerSelection);
- }
-}
-game();
 
 
 // Función para que la computadora haga su elección
@@ -66,3 +55,9 @@ function computerPlay(){
   let loop = pares[ha].toLowerCase();
   return loop;
 }
+
+//Código nuevo
+const papelito = document.querySelector('#papel');
+papelito.addEventListener('click', () => {
+  alert("Hola");
+});

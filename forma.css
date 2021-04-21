@@ -54,13 +54,17 @@ body{
     justify-content: center;
 }
 
+button{
+    border-style: none;
+    background-color: white;
+}
+
 img{
     justify-content: center;
     width: 40%;
     border-radius: 15px;
     box-shadow: -2px -2px 2px 2px rgb(29, 28, 28);
 }
-
 
 /* Resultado de Ronda */
 .result{

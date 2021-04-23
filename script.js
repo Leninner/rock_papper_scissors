@@ -58,32 +58,32 @@ function playRound(){
   if(img.src === imgPC.src){
     ganador = "EMPATE";
   }
-  else if(imgPC.src == 'http://127.0.0.1:5500/sources/paper.png'){
-    if(img.src == 'http://127.0.0.1:5500/sources/scissors.png'){
+  else if(imgPC.src == 'https://leninner.github.io/rock_papper_scissors/sources/paper.png'){
+    if(img.src == 'https://leninner.github.io/rock_papper_scissors/sources/scissors.png'){
       ganador = 'ERES TÚ!';
       contHumano++;
     }
-    else if(img.src == 'http://127.0.0.1:5500/sources/rock.png'){
+    else if(img.src == 'https://leninner.github.io/rock_papper_scissors/sources/rock.png'){
       ganador = 'ES LA PC!';
       contPc++;
     }
   }
-  else if(imgPC.src == 'http://127.0.0.1:5500/sources/rock.png'){
-    if(img.src == 'http://127.0.0.1:5500/sources/scissors.png'){
+  else if(imgPC.src == 'https://leninner.github.io/rock_papper_scissors/sources/rock.png'){
+    if(img.src == 'https://leninner.github.io/rock_papper_scissors/sources/scissors.png'){
       ganador = "ES LA PC!";
       contPc++;
     }
-    else if(img.src == 'http://127.0.0.1:5500/sources/paper.png'){
+    else if(img.src == 'https://leninner.github.io/rock_papper_scissors/sources/paper.png'){
       ganador = "ERES TÚ!";
       contHumano++;
     }
   }
-  else if(imgPC.src == 'http://127.0.0.1:5500/sources/scissors.png'){
-    if(img.src == 'http://127.0.0.1:5500/sources/paper.png'){
+  else if(imgPC.src == 'https://leninner.github.io/rock_papper_scissors/sources/scissors.png'){
+    if(img.src == 'https://leninner.github.io/rock_papper_scissors/sources/paper.png'){
       ganador = "ES LA PC!";
       contPc++;
     }
-    else if(img.src == 'http://127.0.0.1:5500/sources/rock.png'){
+    else if(img.src == 'https://leninner.github.io/rock_papper_scissors/sources/rock.png'){
       ganador = "ERES TÚ!";
       contHumano++;
     }

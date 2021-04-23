@@ -30,7 +30,7 @@ body{
 
 #separador h3{
     margin: 10px;
-    padding-top: 16px;
+    padding-top: 30px;
 }
 
 #separador{
@@ -127,8 +127,8 @@ img{
 
 .size{
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow:  20px 20px 60px #686666,
+    background: #ffffff;
+    box-shadow:  10px 20px 15px #cfc9c9,
         -15px -20px 30px #c2c1c1;
     margin: 10px;
     width: 10%;
@@ -139,6 +139,12 @@ img{
 .size h1{
     padding-top: 7px;
     text-align: center;
+}
+
+.size h2{
+    padding-top: 11px;
+    text-align: center;
+    color: #333;
 }
 
 /* Footer */
